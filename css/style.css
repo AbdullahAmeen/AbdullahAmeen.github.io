@@ -1,0 +1,694 @@
+
+html, body{
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background: #cee099;
+}
+
+/*
+.marquee {
+    width: 100%;
+    line-height: 50px;
+    text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+}
+.marquee h2 {
+    display: inline-block;
+    animation: marquee 10s linear infinite;
+}
+@keyframes marquee {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
+*/
+#div1{
+  background-color:;
+  display: block;
+  padding-top: auto;
+  margin-top: 100px;
+}
+
+#div2{
+  background-color:;
+  padding-top: auto;
+  padding-bottom: auto;
+  width: 100%;
+  margin-top: 100px;
+}
+#div3{
+  color: black;;
+  padding-top: auto;
+  height: auto;
+  margin-top: 100px;
+}
+
+#div4{
+  padding-top: auto;
+  margin-top: 100px;
+
+}
+
+#portfoliobutton{
+
+  display:block;
+  position: fixed;
+}
+
+#backrondimage{
+  background-image: url("../img/Globe2.png");
+  background-position: center 0;
+  background-size: cover;
+  background-repeat:no-repeat;
+  height:1250px;
+  width: 100%
+}
+/*
+#rotate {
+  width: 500px;
+  height: 490px;
+  background: url("../img/ContenintalMap4.png");
+  border-radius: 50%;
+  overflow: visible;
+  background-size: 830px;
+  box-shadow: inset -20px 0px 40px 0px rgb(2, 2, 2),
+  inset -6px 0 6px 2px rgba(255, 255, 255, 0.2);
+  animation-name: rotate;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes rotate {
+  from { background-position-x: 0px; }
+  to { background-position-x: 3900px; }
+}
+*/
+.mr-auto{
+  font-size: 15px;
+}
+#briefbio{
+    background-color: #45120f;
+    border-radius: 1px;
+    height: 1850px;
+    box-shadow: 4px -3px 3px 0px #68747D;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    color: white;
+    padding-top: 20px;
+}
+
+#resumeexperiencepart{
+
+  background-color: lightgrey;
+  border-radius: 1px;
+  height: 1850px;
+  box-shadow: 3px -3px 3px 0px #68747D;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: scroll;
+}
+
+ul li {
+   text-indent: 3px;
+}
+
+.computerskills {
+  height: 290px;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.languages img{
+
+  height: 590px;
+  width: 110px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+.resumephoto{
+  margin-top: 30px;
+  height: 200px;
+  width:195px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+.imagecontainer:hover .overlay {
+  opacity: 1;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+*/
+
+
+.menu{
+  color:white;
+}
+
+
+.thumbnail img{
+  height:85%;
+  width: 100%;
+  border-width: auto;
+  box-shadow: 1px -1px 1px 1px #68747D;
+  background-color: white;
+  padding:2px;
+  margin: auto;
+  display: block;
+  position: relative;
+}
+
+img:hover{
+
+  box-shadow: 0 0 4px 3px rgba(25, 256, 256, 0.9);
+}
+
+
+
+h2{
+  font-size: 30px;
+}
+
+.navbar-dark{
+    background-color:transparent;
+    border-bottom: 0.5px solid lightgrey;
+    z-index: 10;
+    height: 65px;
+}
+.navbar-dark.scrolled {
+    background-color:#116980;
+}
+
+.navbar.scrolled .navbar-collapse{
+    background: #116980;
+    z-index: -1;
+}
+
+.navbar-collapse {
+  background: #000;
+}
+
+
+.navbar-darked{
+
+  background-color: #116980;
+  box-shadow:         2px 2px 2px 2px black;
+  z-index:999;
+}
+.navbar-custom .navbar-brand{
+  color:white;
+  font-size: 30px;
+}
+
+.nav-link{
+  color: white;
+}
+
+.about{
+  color:white;
+  display: block;
+
+}
+.photo{
+  max-height: 40%;
+  max-width: 44%;
+  border-radius:50%;
+  float: right;
+  box-shadow:0px 1px 1px 1px black;
+}
+
+.contactme{
+  color: black;
+  font-size: 42px;
+  font-weight: : bold;
+}
+
+.navbar-brand{
+  padding-left: 10px;
+}
+
+.navbar-brand1{
+  color:white;
+  font-size: 20px;
+}
+
+.navbar-brand1:hover{
+
+  box-shadow: 0 0 4px 3px rgba(1, 210, 106, 0.9);
+  width: auto;
+  height: auto;
+  text-decoration: none;
+  color: yellow;
+  border-radius: 5px;
+  padding: auto;
+}
+
+p {
+  font-size: 18px;
+}
+
+.hompagecover{
+  width: 35px;
+  height: 40px;
+  padding-bottom:5px;
+}
+
+.hompagecover:hover{
+  box-shadow: 0px 1px 20px 5px rgba(39,205,205,0.8);
+}
+
+.hompagecover1{
+  width: 60px;
+  height: 58px;
+  border-radius: 30px;
+  display: inline-block;
+}
+
+.hompage{
+  width: 33px;
+  height: 43px;
+  padding-bottom: 10px;
+}
+.Copyright{
+  font-size: 12px;
+  color: maroon;
+}
+
+.navbar-dark .nav-item:hover .nav-link{
+    color: yellow;
+    background: #003366; /* add background-color to active links */
+    border-radius: 10px;
+    display:block;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 110px;
+}
+
+.portfolio-text{
+  color: white;
+  font-size: 20px;
+}
+
+
+
+/* Finl Project CSS*/
+
+
+body {
+  background-color: #EDEDED;
+  height:auto;
+}
+
+.navbar-toggler:focus, .navbar-toggler:active {
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar-toggler:hover{
+
+  box-shadow: 0px 1px 20px 5px rgba(39,205,205,0.8);
+}
+
+.navbar-toggler{
+
+  background-color: transparent;
+  padding: auto;
+  margin-right: 7px;
+}
+
+.navbar-dark .navbar-toggler-icon{
+
+  background-image: url("../img/hamburgermenu.png");
+  width: 35px;
+  height: 35px;
+  vertical-align: middle;
+}
+
+.navbar-collapse{
+
+  text-align: center;
+  padding-bottom: 5px;
+}
+.menu{
+  color: white;
+}
+
+.hompage{
+  width: 33px;
+  height: 43px;
+  padding-bottom: 10px;
+}
+
+.thumbnail img:hover{
+
+  box-shadow: 0px 1px 5px 5px rgba(39,205,205, 0.8);
+  border-radius: 2%;
+}
+
+.thumbnail1 img:hover{
+
+  box-shadow: 0 0 4px 3px rgba(1, 140, 186, 0.9);
+
+}
+
+.thumbnail2 img:hover{
+
+  box-shadow: 0 0 4px 3px rgba(1, 140, 186, 0.9);
+
+}
+
+.thumbnail3 img:hover{
+
+  box-shadow: 0 0 4px 3px rgba(1, 140, 186, 0.9);
+}
+
+.MathResourceIcons img:hover{
+  box-shadow: 0px 1px 5px 5px rgba(39,155,189,0.8);
+  height: auto;
+  display: block;
+  border-radius: 50%;
+}
+
+#footer a img:hover{
+  box-shadow: 0 0 4px 3px rgba(1, 140, 186, 0.9);
+  width: auto;
+  height: auto;
+}
+
+
+.thumbnail1 img{
+  height: 90%;
+  width: 100%;
+  border-width: auto;
+  box-shadow: 1px -1px 1px 1px #68747D;
+  background-color: white;
+  padding: 10px;
+  margin: 1px auto;
+  display: block;
+  position: relative;
+}
+
+.thumbnail2 img{
+  height: 80%;
+  width: 95%;
+  border-width: auto;
+  box-shadow: 1px -1px 1px 1px #68747D;
+  background-color: white;
+  padding: 10px;
+  display: block;
+  margin: 1px auto;
+  position: relative;
+  align-content: center;
+}
+
+.ImageBorder{
+  height: 60%;
+  width: 80%;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 10px;
+  box-shadow: 1px -1px 1px 1px #68747D;
+  display: block;
+  margin: 1px auto;
+}
+
+.mathcauses{
+  box-shadow: 1px 1px 1px 1px #68747D;
+  padding-left: 3px;
+  padding-right: 2px;
+  background: #EDEDED;
+  border: 0.5px solid maroon;
+  border-radius: 3px;
+}
+p1{
+  font-size: 15.5px;
+}
+
+
+.PISA_2018_Report a:hover{
+  height: yellow;
+}
+
+.PISA_2018_Report{
+  border: 2px solid black;
+  border-radius: 10px;
+
+}
+
+.mathresources{
+  height: 10%;
+  width: 40%;
+  display: block;
+  margin-top: 20px;
+
+}
+.mathresources img:hover{
+  box-shadow: 0 0 12px 5px rgba(15, 15, 15, 0.9);
+
+}
+
+h1{
+  text-align: center;
+}
+h2{
+  font-size: 32px;
+  text-align: center;
+}
+h4{
+  font-size: 30px;
+  text-align: center;
+}
+h5{
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
+
+
+.navbar-custom {
+    background:#116980;
+}
+
+.navbar-custom .navbar-brand{
+  color:white;
+  font-size: 25px;
+}
+
+.navbar-custom .nav-item:hover .nav-link {
+    background-color: #ebf4f5;
+    border-radius: 10px;
+}
+
+.nav-link{
+  color: white;
+  font-size: 17px;
+}
+
+
+#footer{
+  height: 50px;
+  margin-top: 200px;
+  clear: both;
+}
+
+.about{
+  padding-top: 30px;
+  position: relative;
+}
+
+.contactMeBySocialMedia{
+  display: block;
+  align-content: center;
+}
+
+}
+.contactme{
+  color: black;
+  font-size: 42px;
+  font-weight: : bold;
+}
+
+
+.navbar-custom .navbar-brand:hover{
+    color: yellow;
+
+}
+
+
+p {
+  font-size: 18px;
+}
+.dropdown-item:hover{
+    background-color: #ccffff;
+}
+
+.Copyright{
+  font-size: 12px;
+  color: maroon;
+}
+
+
+.hompagecover{
+  width: 35px;
+  height: 40px;
+  padding-bottom:5px;
+}
+.hompage{
+  width: 33px;
+  height: 43px;
+  padding-bottom: 10px;
+}
+
+.ball {
+	display: block;
+  border: 1px black;
+	width: 130px;
+	height: 130px;
+	margin: 50px auto 0;
+	border-radius: 50%;
+}
+.b2 {
+  background: radial-gradient(circle at 65% 15%, white 1px, aqua 3%, black 60%, aqua 100%);
+}
+
+.b3 {
+  background: radial-gradient(circle at 65% 15%, white 1px, aqua 3%, darkblue 60%, aqua 100%);
+}
+
+.b4 {
+  background: radial-gradient(circle at 65% 15%, white 0px, red 3%, maroon 40%, red 100%);
+}
+
+.b5 {
+  background: radial-gradient(circle at 65% 15%, white 0px,#DE84FB 3%, #510769 40%, #C72EF8 100%);
+}
+.b6 {
+  background: radial-gradient(circle at 65% 15%, white 0px,#7A7DDA 3%, #242A93 40%, #040638 100%);
+}
+
+.b7 {
+  background: radial-gradient(circle at 65% 15%, white 0px,#D4F191 3%, #607D1D 40%, #2E4004 100%);
+}
+.b8 {
+  background: radial-gradient(circle at 65% 15%, white 0px,yellow 3%, orange 40%, #3D0109 100%);
+}
+.b9 {
+  background: radial-gradient(circle at 65% 15%, white 1px,limegreen 3%, green 40%, darkgreen 100%);
+}
+.b10 {
+  background: radial-gradient(circle at 65% 15%, white 1px,white 3%, grey 40%, #C7CFC9 100%);
+}
+.b11 {
+  background: radial-gradient(circle at 65% 25%, white 1px,#78BFD1 3%, #347A8C 40%, #03333F 100%);
+}
+.b12 {
+  background: radial-gradient(circle at 65% 15%, white 1px,yellow 3%, red 40%, purple 100%);
+}
+.b13 {
+  background: radial-gradient(circle at 65% 15%, white 1px,white 3%, lime 40%, black 100%);
+}
+
+.ball a{
+    color:white;
+    font-size: 18px;
+    font-style: bold;
+}
+.ball:hover{
+  box-shadow: 0 0 25px 5px rgba(217, 220, 236, 0.9);
+}
+
+.ball0{
+  display: block;
+  border: 0.01px solid black;
+  width: 180px;
+  height: 180px;
+  margin: 50px auto 0;
+  border-radius: 50%;
+  margin-top: 150px;
+  animation-name: rotate;
+  animation-duration: 100s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  background-position: center 0px;
+}
+
+@keyframes rotate {
+  from { background-position-x: 0px; }
+  to { background-position-x: 10000px; }
+}
+
+
+.b0{
+    background: radial-gradient(circle at 50% 1%, darkgrey 0px, #3b9cf7 20%, #93e1f5 70%, #e1fbfc 100%);
+}
+
+.ball0:hover{
+  box-shadow: 0 0 18px 3px rgba(217, 220, 236, 0.9);
+}
+.ball0 a {
+    color:white;
+    font-size: 18px;
+    font-style: bold;
+}
+/*
+@media all and (max-width: 1124px) and (min-width: 728px) {
+  .ball0 {
+   margin-top:350px;
+  }
+}
+/*
+@media only screen and (max-width: 768px) {
+  .ball0 {
+    margin-top: 180px !important;
+  }
+}
+
+@media only screen and (max-width: 1140px) {
+  .ball0 {
+    margin-top: 480px !important;
+  }
+}
+*/
+.header{
+  border-bottom-left-radius: 100% 60%;
+  border-bottom-right-radius: 100% 60%;
+  border-top-left-radius: 100% 60%;
+  border-top-right-radius: 100% 60%;
+}

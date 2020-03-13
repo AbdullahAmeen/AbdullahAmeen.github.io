@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+
+
+  <head>
+    <meta charset="utf-8">
+    <title>Abdullah's Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="maps, cartography, math"/>
+    <!--bootstrap and my personal stylesheets-->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+
+      .container{
+        padding-left:50px;
+        padding-right:50px;
+      }
+
+      .thumbnail5 img{
+        width: 90%;
+        height: 50%;
+        margin: 1px auto;
+        display: block;
+        position: relative;
+      }
+
+      .thumbnail6{
+        height: auto;
+        margin-left:1px;
+        padding-left:10px;
+        display: block;
+        position: relative;
+        border-width: auto;
+
+      }
+
+      .methodology{
+        border-width: auto;
+        background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);;
+        border-radius: 10px;
+        box-shadow: 1px 1px 6px 0.34px #68747D;
+        padding-left: 15px;
+        padding-right:15px;
+        padding-top: 10px;
+        padding-bottom: auto;
+      }
+
+    .LoadingDataset{
+      border-width: auto;
+      border-radius: 5px;
+      box-shadow: 1px 0.5px 6px 0.34px #68747D;
+      padding-left: 15px;
+      padding-right:15px;
+      padding-top: 10px;
+      padding-bottom: auto;
+    }
+
+    #RProject{
+      border-width: auto;
+      border-radius: 5px;
+      box-shadow: 1px 0.5px 6px 0.34px #68747D;
+      margin-left:
+    }
+
+
+
+      h2{
+        text-align: center;
+      }
+      img{
+        border-width: auto;
+        border-radius: 5px;
+
+      }
+
+      body{
+        background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+        height: auto;
+      }
+
+    </style>
+
+  <body>
+
+    <nav class="navbar navbar-expand-sm navbar-darked fixed-top">
+            <a class="navbar-brand1" href="index.html"><img src="img/BackToMainPage.png" alt="" class="hompagecover1"> <span> Return To Main Page</span></a>
+            <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar4">
+    </nav>
+<br><br><br><br><br>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="Linearregression">
+          <h2 style="text-align:center;"><b>Linear Regression Model - Mortality Vs Water Hardness <br> in 61 Towns in England and Wales</b></h2>
+          <br>
+          <p>
+            Water helps almost every part of the human body to function efficiently. Considering the fact that our bodies are two-third water,
+            so it’s important to know the quality of the water we are drinking.  People often think that the hard water is a hazard for health,
+            some people try to soften the hard water first and then drink it, because they think that the hard water is not healthy.
+            I used to work as a water supply engineer and have over 5 years experience in designing and implementation of community based
+            water supply networks.
+            As a graduate student in the advance quantaitive analysis class (Goeg-560), I decided to further analyze the relationship of hard water with human’s health using <b> R</b>.
+            In this project I have conducted some statistical analysis on water hardness and the mortality rates for 61 towns in England and Wales as listed in the below table.
+            <br><br>
+            The dataset for this project was taken from: <a href="http://vincentarelbundock.github.io/Rdatasets/datasets.html" target="_blank">Mortality and Water Hardness </a>
+            <br><br>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+          <div class="col-lg-6">
+              <div class="thumbnail5">
+                  <h5 style="text-align:center;"><b> Dataset Table</b></h5>
+                   <img src="contents/watredatatable.png" alt="Data Table" style="width:90%; height:982px;">
+              </div>
+            </div><br><br>
+            <div class="col-lg-6">
+              <h5 style="text-align:center;"><b> Methodology</b></h5>
+                <div class="methodology">
+                    <p>
+
+                      In this project, first I conducted some descriptive analysis on each numerical variable to visualize and see their distribution over the space,
+                      estimated the skewness of both numerical variables (Mortality, Hardness) to see whether they are skewed to the right or left and finally,
+                      used the Pearson correlation and the Linear Regression equation for modeling the relationship between <b>Mortality</b> as a dependent variable and
+                      water <b>Hardness</b> as an independent variable. <br><br>
+                      In addition to the linear regression model, I have also visualized the differences in mortality between
+                      the northern and southern towns. <br> <br>After conducting all the statistical analysis, I figured out that there is an inverse (negative) relationship (-0.654)
+                      between the two numerical variables. <br> A negative correlation also demonstrates a connection between the two variables but in an inverse way. A negative correlation
+                      means that one variable increase whenever the other decreases. This relationship may or may not represent causation between the two variables, but for sure it does describe a pattern.
+                      <br>
+                      Based on the linear regression model below, we can say that the mortality in 61 towns in England and Wale is not associated/caused by water hardness.<br> As explained above that
+                      a negative relationship means that when one variable increases the other decreases and we can clearly see this in the below figure that when the water hardness
+                      increases, the mortality rate decreases, so we might say that the water hardness have a positive effect in reducing the mortality.
+                       Numerous studies suggest a correlation between hard water and lower cardiovascular
+                       disease mortality, however no firm conclusions have been drawn yet. The National Research Council has
+                       recommended further studies be conducted.
+                    </p>
+            </div>
+          </div>
+        </div><br><br>
+
+     <div class="row">
+          <div class="col-lg-12">
+            <div class="thumbnail6">
+              <a href="contents/Regression Model in Illistrutor.svg">
+                 <img src="contents/RegressionModel.png" alt="LineaModel" style="width:100%;">
+              </a><br><br><br>
+
+              <h2><b>Step By Step Process</b></h2>
+            </div>
+          </div><br><br>
+      </div>
+    <div class="row">
+
+        <div class="col-lg-12">
+          <div class="RProject">
+
+            <object data="contents/StepByStepProcess.pdf" type="application/pdf" width="100%" height="900px">
+                <p>Your web browser doesn't have a PDF plugin.
+                Instead you can <a href="contents/StepByStepProcess.pdf">click here to
+                download the PDF file.</a></p>
+            </object>
+
+          </div>
+
+        </div>
+   </div>
+     <small class="Copyright">&copy; Copyright 2020, Abdullah Ameen</small>
+  </div>
+
+</body>
+</html>
