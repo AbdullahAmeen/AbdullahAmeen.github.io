@@ -242,8 +242,8 @@ h2{
 
 }
 .photo{
-  max-height: 40%;
-  max-width: 44%;
+  max-height: 35%;
+  max-width: 38%;
   border-radius:50%;
   float: right;
   box-shadow:0px 1px 1px 1px black;
@@ -453,9 +453,15 @@ body {
   padding-left: 3px;
   padding-right: 2px;
   background: #EDEDED;
-  border: 0.5px solid maroon;
+  border: 2px solid maroon;
   border-radius: 3px;
 }
+
+.mathcauses:hover{
+  background: rgba(25, 181, 254, 1);
+
+}
+
 p1{
   font-size: 15.5px;
 }
