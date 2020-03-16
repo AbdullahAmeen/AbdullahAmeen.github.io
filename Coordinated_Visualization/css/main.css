@@ -12,9 +12,6 @@ margin: 0px;
     stroke-width: 0.5px;
 } */
 
-.gratBackground{
-	fill:black;
-}
 .state{
 	stroke: black;
 
@@ -36,6 +33,7 @@ margin: 0px;
     stroke-width: 1px;
     shape-rendering: crispEdges;
 		box-shadow: 1px 1px 2px white;
+		padding-bottom: 15px;
 }
 .chartTitle {
     font-family: sans-serif;
@@ -43,7 +41,6 @@ margin: 0px;
     font-weight: bold;
 		fill:white;
 		text-align:center;
-
 }
 
 .chart {
@@ -52,17 +49,17 @@ margin: 0px;
     float: right;
     box-shadow: 1px 1px 2px white;
 		border-radius:5px;
-		right: 150px;
 }
+
+
 .axis{
 	fill:none;
 	color:white;
-	stroke-width:2px;
+	stroke-width:1.5px;
 }
 
 
 .dropdown {
-
     position: absolute;
     background:white;
     top: 155px;
@@ -73,11 +70,12 @@ margin: 0px;
     font-weight: bold;
     padding: 2px;
     border: 3px solid maroon;
-    box-shadow: 2px -1px 2px white;
+    box-shadow: 1px -1px 1px white;
     width:300px;
     height:35px;
     border-radius:8px
 }
+
 option {
     font-weight: normal;
 }
@@ -125,12 +123,17 @@ body{
 	height:170px;
 	text-align: center;
 	color: black;
-	border: 2px solid red;
+	border: 2px solid maroon;
 	padding: 20px;
 	border-style: dashed;
-	border-bottom-left-radius: 100% 60%;
-  border-bottom-right-radius: 100% 60%;
+	border-bottom-left-radius: 0% 60%;
+  border-bottom-right-radius: 0% 60%;
   border-top-left-radius: 100% 60%;
   border-top-right-radius: 100% 60%;
-	background:rgba(150, 96, 197, 0.12)
+	background:rgba(150, 96, 197, 0.12);
+	box-shadow: 1px -2px 1px purple;
+}
+.footer:hover{
+	background: rgba(254, 241, 96, 0.5);
+
 }
