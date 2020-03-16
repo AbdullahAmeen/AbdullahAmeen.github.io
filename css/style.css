@@ -205,7 +205,7 @@ h2{
     background-color:transparent;
     border-bottom: 0.5px solid lightgrey;
     z-index: 10;
-    height: 65px;
+    height: 60px;
 }
 .navbar-dark.scrolled {
     background-color:#116980;
@@ -418,7 +418,6 @@ body {
   border-width: auto;
   box-shadow: 1px -1px 1px 1px #68747D;
   background-color: white;
-  padding: 10px;
   margin: 1px auto;
   display: block;
   position: relative;
@@ -467,9 +466,7 @@ p1{
 }
 
 
-.PISA_2018_Report a:hover{
-  height: yellow;
-}
+
 
 .PISA_2018_Report{
   border: 2px solid black;
@@ -697,4 +694,16 @@ p {
   border-bottom-right-radius: 100% 60%;
   border-top-left-radius: 100% 60%;
   border-top-right-radius: 100% 60%;
+}
+
+
+.ImageBorder:hover{
+    background:rgba(240, 255, 0, 0.58);
+}
+.mathcauses:hover{
+  background: rgba(240, 255, 0, 1);
+
+}
+.PISA_2018_Report:hover{
+  background:rgba(240, 255, 0, 0.58);
 }
