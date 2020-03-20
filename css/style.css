@@ -107,7 +107,7 @@ html, body{
 
   background-color: lightgrey;
   border-radius: 1px;
-  height: 1850px;
+  height: auto;
   box-shadow: 3px -3px 3px 0px #68747D;
   border-left: 2px solid black;
   border-right: 2px solid black;
@@ -116,7 +116,6 @@ html, body{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  overflow: scroll;
 }
 
 ul li {
@@ -224,8 +223,8 @@ h2{
 .navbar-darked{
 
   background-color: #116980;
-  box-shadow:         2px 2px 2px 2px black;
-  z-index:999;
+  box-shadow: 2px 2px 2px 2px black;
+  padding: 5px;
 }
 .navbar-custom .navbar-brand{
   color:white;
@@ -696,6 +695,14 @@ p {
   border-top-right-radius: 100% 60%;
 }
 
+.heading:hover{
+  background: rgba(231, 250, 254, 0.5);
+  border-bottom-left-radius: 100% 60%;
+  border-bottom-right-radius: 100% 60%;
+  border-top-left-radius: 100% 60%;
+  border-top-right-radius: 100% 60%;
+  color: black;
+}
 
 .ImageBorder:hover{
     background:rgba(240, 255, 0, 0.58);
