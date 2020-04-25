@@ -7,24 +7,6 @@ html, body{
   background: #cee099;
 }
 
-/*
-.marquee {
-    width: 100%;
-    line-height: 50px;
-    text-align: right;
-    white-space: nowrap;
-    overflow: hidden;
-    position: relative;
-}
-.marquee h2 {
-    display: inline-block;
-    animation: marquee 10s linear infinite;
-}
-@keyframes marquee {
-    0%   { transform: translate(0, 0); }
-    100% { transform: translate(-100%, 0); }
-}
-*/
 #div1{
   background-color:;
   display: block;
@@ -66,27 +48,7 @@ html, body{
   height:1250px;
   width: 100%
 }
-/*
-#rotate {
-  width: 500px;
-  height: 490px;
-  background: url("../img/ContenintalMap4.png");
-  border-radius: 50%;
-  overflow: visible;
-  background-size: 830px;
-  box-shadow: inset -20px 0px 40px 0px rgb(2, 2, 2),
-  inset -6px 0 6px 2px rgba(255, 255, 255, 0.2);
-  animation-name: rotate;
-  animation-duration: 60s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
 
-@keyframes rotate {
-  from { background-position-x: 0px; }
-  to { background-position-x: 3900px; }
-}
-*/
 .mr-auto{
   font-size: 15px;
 }
@@ -149,33 +111,11 @@ ul li {
   margin-left: auto;
   margin-right: auto;
 }
-/*
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
-}
-.imagecontainer:hover .overlay {
-  opacity: 1;
-}
-
-.container:hover .overlay {
-  opacity: 1;
-}
-*/
 
 
 .menu{
   color:white;
 }
-
 
 .thumbnail img{
   height:85%;
@@ -191,7 +131,7 @@ ul li {
 
 img:hover{
 
-  box-shadow: 0 0 4px 3px rgba(25, 256, 256, 0.9);
+  box-shadow: 0 0 2px 1px rgba(25, 256, 256, 0.9);
 }
 
 
@@ -325,10 +265,6 @@ p {
 }
 
 
-
-/* Finl Project CSS*/
-
-
 body {
   background-color: #EDEDED;
   height:auto;
@@ -409,7 +345,6 @@ body {
   width: auto;
   height: auto;
 }
-
 
 .thumbnail1 img{
   height: 90%;
@@ -669,25 +604,7 @@ p {
     font-size: 18px;
     font-style: bold;
 }
-/*
-@media all and (max-width: 1124px) and (min-width: 728px) {
-  .ball0 {
-   margin-top:350px;
-  }
-}
-/*
-@media only screen and (max-width: 768px) {
-  .ball0 {
-    margin-top: 180px !important;
-  }
-}
 
-@media only screen and (max-width: 1140px) {
-  .ball0 {
-    margin-top: 480px !important;
-  }
-}
-*/
 .header{
   border-bottom-left-radius: 100% 60%;
   border-bottom-right-radius: 100% 60%;
@@ -714,3 +631,7 @@ p {
 .PISA_2018_Report:hover{
   background:rgba(254, 241, 96, 0.5);
 }
+
+.ReturnToTop:hover{
+  background: #45120f;
+  }
