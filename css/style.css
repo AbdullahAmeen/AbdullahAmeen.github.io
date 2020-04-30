@@ -635,3 +635,36 @@ p {
 .ReturnToTop:hover{
   background: #45120f;
   }
+
+  #first{
+    background: radial-gradient(circle, yellow, green);
+    border-radius: 0px 0px 45px 0px;
+  }
+  #second{
+    background: radial-gradient(circle, yellow, green);
+    border-radius: 0px 0px 0px 45px;
+  }
+  #third{
+    background: radial-gradient(circle, yellow, green);
+    border-radius: 0px 45px 0px 0px;
+  }
+  #fourth{
+    background: radial-gradient(circle, yellow, green);
+    border-radius: 45px 0px 0px 0px;
+  }
+#first:hover{
+  background: maroon;
+  color:white;
+}
+#fourth:hover{
+  background: maroon;
+  color:white;
+}
+#second:hover{
+  background: maroon;
+  color:white;
+}
+#third:hover{
+  background: maroon;
+  color:white;
+}
