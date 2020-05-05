@@ -54,7 +54,7 @@ html, body{
 #briefbio{
     background-color: #45120f;
     border-radius: 1px;
-    height: 1850px;
+    height: auto;
     box-shadow: 4px -3px 3px 0px #68747D;
     border-left: 2px solid black;
     border-right: 2px solid black;
