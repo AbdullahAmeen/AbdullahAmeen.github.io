@@ -154,9 +154,6 @@ h2{
     z-index: -1;
 }
 
-.navbar-collapse {
-  background: #000;
-}
 
 
 .navbar-darked{
@@ -667,3 +664,25 @@ p {
   background: maroon;
   color:white;
 }
+
+
+.buttonn{
+  background-color: lightgray;
+  border:2px solid white;
+}
+
+.buttonn:hover{
+  background-color: lightgreen;
+}
+.buttonnn{
+    background-color: #116980;
+	border:1.4px solid yellow;
+    box-shadow:1px 1px 2px 1px lightgray;
+    border-radius: 50%;
+    height: 150px;
+    font-size: 18px;
+  }
+
+  .buttonnn:hover{
+    background-color: maroon;
+  }
