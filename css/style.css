@@ -284,8 +284,8 @@ body {
 .navbar-collapse{
 
   text-align: left;
-  padding-bottom: 15px;
-  padding-left: 40px;
+  padding-left: 25px;
+  padding-top: 8px;
 }
 .menu{
   color: white;
