@@ -7,14 +7,14 @@ html, body{
 }
 
 #div1{
-  background-color:;
+
   display: block;
   padding-top: auto;
   margin-top: 100px;
 }
 
 #div2{
-  background-color:;
+
   padding-top: auto;
   padding-bottom: auto;
   width: 100%;
@@ -89,16 +89,6 @@ ul li {
   margin-left: auto;
   margin-right: auto;
   display: block;
-}
-.languages img{
-
-  height: 590px;
-  width: 110px;
-  display:block;
-  margin-left: auto;
-  margin-right: auto;
-
-
 }
 
 .resumephoto{
@@ -187,7 +177,7 @@ h2{
 .contactme{
   color: black;
   font-size: 42px;
-  font-weight: : bold;
+  font-weight: bold;
 }
 
 .navbar-brand{
@@ -293,8 +283,9 @@ body {
 
 .navbar-collapse{
 
-  text-align: center;
-  padding-bottom: 5px;
+  text-align: left;
+  padding-bottom: 15px;
+  padding-left: 40px;
 }
 .menu{
   color: white;
@@ -471,11 +462,10 @@ h3{
   align-content: center;
 }
 
-}
 .contactme{
   color: black;
   font-size: 42px;
-  font-weight: : bold;
+  font-weight: bold;
 }
 
 
