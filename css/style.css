@@ -386,9 +386,6 @@ p1{
   font-size: 15.5px;
 }
 
-
-
-
 .PISA_2018_Report{
   border: 2px solid black;
   border-radius: 10px;
@@ -623,20 +620,20 @@ p {
   }
 
   #first{
-    background: radial-gradient(circle, yellow, green);
-    border-radius: 0px 0px 45px 0px;
+    background: radial-gradient(circle, white, darkorange);
+    border-radius: 10px;
   }
   #second{
-    background: radial-gradient(circle, yellow, green);
-    border-radius: 0px 0px 0px 45px;
+    background: radial-gradient(circle, white, darkorange);
+    border-radius: 10px;
   }
   #third{
-    background: radial-gradient(circle, yellow, green);
-    border-radius: 0px 45px 0px 0px;
+    background: radial-gradient(circle, white, darkorange);
+    border-radius: 10px;
   }
   #fourth{
-    background: radial-gradient(circle, yellow, green);
-    border-radius: 45px 0px 0px 0px;
+    background: radial-gradient(circle,  white, darkorange);
+    border-radius: 10px;
   }
 #first:hover{
   background: maroon;
