@@ -33,20 +33,6 @@ html, body{
 
 }
 
-#portfoliobutton{
-
-  display:block;
-  position: fixed;
-}
-
-#backrondimage{
-  background-image: url("../img/Globe2.png");
-  background-position: center 0;
-  background-size: cover;
-  background-repeat:no-repeat;
-  height:1250px;
-  width: 100%
-}
 
 .mr-auto{
   font-size: 15px;
@@ -130,17 +116,17 @@ h2{
 }
 
 .navbar-dark{
-    background-color:transparent;
+    background-color: #50AFCC;
     border-bottom: 0.5px solid lightgrey;
     z-index: 10;
     height: 60px;
 }
 .navbar-dark.scrolled {
-    background-color:#116980;
+    background-color:#02191f;
 }
 
 .navbar.scrolled .navbar-collapse{
-    background: #116980;
+    background:#02191f;
     z-index: -1;
 }
 
@@ -284,7 +270,7 @@ body {
 .navbar-collapse{
 
   text-align: left;
-  padding-left: 25px;
+  padding-left: 5px;
   padding-top: 8px;
 }
 .menu{
@@ -476,7 +462,7 @@ p {
   font-size: 18px;
 }
 .dropdown-item:hover{
-    background-color: #ccffff;
+    background-color: #ffe3cc;
 }
 
 .Copyright{
@@ -662,12 +648,53 @@ p {
   background-color: lightgreen;
 }
 .buttonnn{
-    background-color: #116980;
-	  border:1.8px solid yellow;
-    border-radius: 15px;
+    background-color: #02191f;
+	  border:2px solid rgb(241, 185, 30);
+    border-radius: 55%;
     font-size: 18px;
+    box-shadow:2px 1px 4px 1px #1d0101;
+    margin-top: 40px;
+    margin-right: 20px;
   }
 
   .buttonnn:hover{
-    background-color: maroon;
+    background-color: rgb(42, 157, 202);
+        
   }
+
+
+
+#Coverpage {
+  background:url('../contents/World-Continents.png');
+  background-size:cover;
+  background-position:center center;
+  background-size:cover;
+  height:auto;
+  width:100%;
+  padding-top:20%;
+  padding-bottom:20%;
+  margin-top: 58px;
+}
+
+.headerfirstpage{
+  display: inline-block;
+  text-align: center;
+  border: 1px solid rgb(63, 149, 199);
+  background-color: #4b1504;
+  opacity: 45%;
+  border-radius: 15px;
+  padding: 5px;
+  margin-top: -20px;
+}
+
+.headerfirstpage:hover{
+  background-color: rgb(1, 16, 29);
+}
+backgroundImage{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
