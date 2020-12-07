@@ -646,8 +646,7 @@ p {
 .buttonnn{
     background-color: #02191f;
 	  border:2px solid rgb(241, 185, 30);
-    border-radius: 55%;
-    font-size: 18px;
+    border-radius: 40%;
     box-shadow:2px 1px 4px 1px #1d0101;
     margin-top: 90px;
   }
@@ -666,8 +665,8 @@ p {
   background-size:cover;
   height:990px;
   width:100%;
-  padding-top:20%;
-  padding-bottom:20%;
+  padding-top:15%;
+  padding-bottom:15%;
 }
 
 .headerfirstpage{
