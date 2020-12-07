@@ -693,20 +693,20 @@ backgroundImage{
 }
 
 #rotatingbutton{
-  width: 80px;
-  height:80px;
+  width: 90px;
+  height:90px;
   background-image: url("../img/World-Continents.png");
   border: 0.05px solid rgb(221, 188, 182);
   border-radius: 50%;
   overflow: visible;
-  background-size: 145px;
+  background-size: 160px;
   animation-name: rotate;
   animation-duration: 170s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   position: relative;
   margin: auto;
-  padding-top: 26px;
+  padding-top: 30px;
 }
 @keyframes rotate {
   from { background-position-x: 0px; }
