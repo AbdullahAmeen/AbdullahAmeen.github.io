@@ -643,6 +643,7 @@ p {
 .buttonn:hover{
   background-color: lightgreen;
 }
+/*
 .buttonnn{
     background-color: #02191f;
 	  border:2px solid rgb(241, 185, 30);
@@ -652,10 +653,9 @@ p {
   }
 
   .buttonnn:hover{
-    background-color: rgb(42, 157, 202);
-        
+    background-color: rgb(42, 157, 202);   
   }
-
+*/
 
 
 #Coverpage {
@@ -691,3 +691,36 @@ backgroundImage{
   align-items: center;
   justify-content: center;
 }
+
+#rotatingbutton{
+  width: 80px;
+  height:80px;
+  background-image: url("../img/World-Continents.png");
+  border: 0.05px solid rgb(221, 188, 182);
+  border-radius: 50%;
+  overflow: visible;
+  background-size: 145px;
+  animation-name: rotate;
+  animation-duration: 170s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  position: relative;
+  margin: auto;
+  padding-top: 26px;
+}
+@keyframes rotate {
+  from { background-position-x: 0px; }
+  to { background-position-x: 3900px; }
+  }
+
+  .resumeportfoilo{
+    font-size: 12.5px;
+    color: rgb(212, 14, 8);
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: rgb(245, 238, 238);
+    opacity: 75%;
+    border-radius: 7px;
+    letter-spacing: 0.65px;
+
+  }
