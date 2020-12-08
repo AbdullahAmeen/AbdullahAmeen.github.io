@@ -647,8 +647,8 @@ p {
 .PortfolioButton{
     background-color: #02191f;
     border:2px solid rgb(241, 185, 30);
-    height: 110px;
-    width: 110px;
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
     box-shadow:2px 1px 4px 1px #1d0101;
     margin-top: 90px;
@@ -696,30 +696,8 @@ backgroundImage{
 
 .resumeportfoilo{
   color: wheat;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
 }
 
-/*
-#rotatingbutton{
-  width: 90px;
-  height:90px;
-  background-image: url("../img/World-Continents.png");
-  border: 0.05px solid rgb(221, 188, 182);
-  border-radius: 50%;
-  overflow: visible;
-  background-size: 160px;
-  animation-name: rotate;
-  animation-duration: 170s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  position: relative;
-  margin: auto;
-  padding-top: 30px;
-}
-@keyframes rotate {
-  from { background-position-x: 0px; }
-  to { background-position-x: 3900px; }
-  }
-*/
  
