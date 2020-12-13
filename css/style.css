@@ -673,7 +673,7 @@ p {
   opacity: 45%;
   border-radius: 15px;
   padding: 5px;
-  margin-top: -20px;
+  margin-top: -40px;
 }
 
 .headerfirstpage:hover{
@@ -689,11 +689,33 @@ backgroundImage{
 }
 
 .resumeportfoilo{
-  color: wheat;
-  font-size: 15px;
+  font-size: 12.5px;
+  margin-left: -2px;
+  color: rgb(175, 36, 36);
   font-weight: bold;
-  text-align: center;
- 
+  text-transform: uppercase;
+  background-color: rgb(245, 238, 238);
+  opacity: 55%;
+  border-radius: 10px;
 }
 
- 
+#rotatingbutton{
+  width: 80px;
+  height:80px;
+  background-image: url("../img/World-Continents.png");
+  border: 0.05px solid rgb(221, 188, 182);
+  border-radius: 50%;
+  overflow: visible;
+  background-size: 142px;
+  animation-name: rotate;
+  animation-duration: 310s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  position: relative;
+  margin: auto;
+  padding-top: 26px;
+}
+@keyframes rotate {
+  from { background-position-x: 0px; }
+  to { background-position-x: 3900px; }
+  }
