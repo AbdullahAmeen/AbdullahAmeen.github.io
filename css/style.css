@@ -532,9 +532,9 @@ p {
 
 .ball0{
   display: block;
-  border: 0.1px solid rgb(197, 11, 11);
-  width: 150px;
-  height: 150px;
+  border: 0.05px solid #9706c7;
+  width: 115px;
+  height: 115px;
   margin: 50px auto 0;
   border-radius: 50%;
   animation-name: rotate;
@@ -551,7 +551,7 @@ p {
 
 
 .b0{
-    background: radial-gradient(circle at 50% 2%, darkgrey 5px, #e9e518 15%, #ec5e0c 50%, #d7e429 100%);
+  background: radial-gradient(circle at 50% 15%, white 0px,#DE84FB 3%, #570d70 40%, #C72EF8 100%);
 }
 
 .ball0:hover{
