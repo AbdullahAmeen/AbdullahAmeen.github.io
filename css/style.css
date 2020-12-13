@@ -112,7 +112,7 @@ h2{
 }
 
 .navbar-dark{
-    background-color: #50AFCC;
+    background-color: #50a0cc;
     border-bottom: 0.5px solid lightgrey;
     z-index: 10;
     height: 60px;
@@ -532,12 +532,11 @@ p {
 
 .ball0{
   display: block;
-  border: 0.01px solid black;
-  width: 180px;
-  height: 180px;
+  border: 0.1px solid rgb(197, 11, 11);
+  width: 150px;
+  height: 150px;
   margin: 50px auto 0;
   border-radius: 50%;
-  margin-top: 150px;
   animation-name: rotate;
   animation-duration: 100s;
   animation-iteration-count: infinite;
@@ -552,14 +551,14 @@ p {
 
 
 .b0{
-    background: radial-gradient(circle at 50% 1%, darkgrey 0px, #3b9cf7 20%, #93e1f5 70%, #e1fbfc 100%);
+    background: radial-gradient(circle at 50% 2%, darkgrey 5px, #e9e518 15%, #ec5e0c 50%, #d7e429 100%);
 }
 
 .ball0:hover{
   box-shadow: 0 0 18px 3px rgba(217, 220, 236, 0.9);
 }
 .ball0 a {
-    color:white;
+    color:rgb(236, 240, 29);
     font-size: 18px;
     font-style: bold;
 }
@@ -659,7 +658,7 @@ p {
   background-size:cover;
   background-position:center center;
   background-size:cover;
-  height:1040px;
+  height:1050px;
   width:100%;
   padding-top:25%;
   padding-bottom:25%;
