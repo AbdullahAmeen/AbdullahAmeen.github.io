@@ -532,26 +532,17 @@ p {
 
 .ball0{
   display: block;
-  border: 0.05px solid #9706c7;
+  border: 8px solid #810c0c;
   width: 115px;
   height: 115px;
   margin: 50px auto 0;
   border-radius: 50%;
-  animation-name: rotate;
-  animation-duration: 100s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  background-position: center 0px;
-}
-
-@keyframes rotate {
-  from { background-position-x: 0px; }
-  to { background-position-x: 10000px; }
+  
 }
 
 
 .b0{
-  background: radial-gradient(circle at 50% 15%, white 0px,#DE84FB 3%, #570d70 40%, #C72EF8 100%);
+  background: radial-gradient(circle at 50% 15%, white 1px,white 3%, grey 40%, #C7CFC9 100%);
 }
 
 .ball0:hover{
