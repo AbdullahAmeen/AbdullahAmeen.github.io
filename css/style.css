@@ -33,9 +33,9 @@ html, body{
 
 }
 
-
 .mr-auto{
   font-size: 15px;
+
 }
 #briefbio{
     background-color: #45120f;
@@ -165,6 +165,7 @@ h2{
   font-size: 20px;
 }
 
+
 .navbar-brand1:hover{
 
   box-shadow: 0 0 4px 3px rgba(1, 210, 106, 0.9);
@@ -247,6 +248,7 @@ body {
   background-color: transparent;
   padding: auto;
   margin-right: 7px;
+  
 }
 
 .navbar-dark .navbar-toggler-icon{
@@ -532,7 +534,7 @@ p {
 
 .ball0{
   display: block;
-  border: 7px solid #810c0c;
+  border: 10px solid #810c0c;
   width: 115px;
   height: 115px;
   margin: 50px auto 0;
