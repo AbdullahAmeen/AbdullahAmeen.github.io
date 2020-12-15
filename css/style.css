@@ -110,17 +110,23 @@ img:hover{
 h2{
   font-size: 30px;
 }
-
+/* The main navbar before scrolling*/
 .navbar-dark{
     background-color: #50a0cc;
     border-bottom: 0.5px solid lightgrey;
     z-index: 10;
-    height: 60px;
+    height: 65px;
 }
+
+/* The main navbar after scrolling*/
 .navbar-dark.scrolled {
     background-color:#02191f;
 }
 
+/* The collapsed navbar background color*/
+.navbar.scrolled .navbar-collapse{
+  background:#02191f;
+}
 
 .navbar-darked{
 
