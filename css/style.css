@@ -540,22 +540,23 @@ p {
 
 .ball0{
   display: block;
-  border: 10px solid #810c0c;
+  border: 10px solid #752222;
   width: 115px;
   height: 115px;
-  margin: 50px auto 0;
   border-radius: 50%;
   padding: 0;
 }
 
 .firstborder{
-  border:10px solid green;
-  width: 135px;
-  height: 135px;
+  border:6px solid rgb(192, 193, 194);
+  width: 127px;
+  height: 127px;
   margin: 50px auto 0;
   display: block;
   border-radius: 50%;
+  box-shadow: -0.5px 1px 2px 2px #4f5052;
 }
+
 .b0{
   background: radial-gradient(circle at 50% 15%, white 1px,white 3%, grey 40%, #C7CFC9 100%);
 }
