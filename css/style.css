@@ -281,11 +281,6 @@ body {
   padding-bottom: 10px;
 }
 
-.thumbnail img:hover{
-
-  box-shadow: 0px 1px 5px 5px rgba(39,205,205, 0.8);
-  border-radius: 2%;
-}
 
 .thumbnail1 img:hover{
 
@@ -723,4 +718,40 @@ backgroundImage{
 @keyframes rotate {
   from { background-position-x: 0px; }
   to { background-position-x: 3900px; }
+  }
+
+
+/* When you mouse over the container, the overlay text will "zoom" in display */
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 2px;
+    background-color: #021824;
+    opacity: 0.8;
+    overflow: hidden;
+    width: 100%;
+    height: 103.6%;
+    transform: scale(0);
+    transition: 0.5s ease;
+    border:4px solid rgb(223, 6, 6);
+    border-radius: 5px;
+    
+  }
+  
+  /* When you mouse over the container, the overlay text will "zoom" in display */
+  .thumbnail:hover .overlay {
+    transform: scale(0.93);
+  }
+  
+  /* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
+  .text {
+    color: white;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 7px;
   }
