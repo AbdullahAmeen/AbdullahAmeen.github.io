@@ -755,3 +755,8 @@ backgroundImage{
     text-align: center;
     padding: 7px;
   }
+
+  .icons{
+    height: 100PX;
+    width: 100PX;
+  }
