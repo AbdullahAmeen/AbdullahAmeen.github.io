@@ -67,8 +67,6 @@ L.control.layers(baseLayers, overlays,{
 
 // Next map frame starts from here
 
-
-
 var WorkPlace = L.layerGroup();
 
 var myIcon2 = L.icon({
