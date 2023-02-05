@@ -661,14 +661,16 @@ p {
   padding-top:25%;
   padding-bottom:25%;
   color: white;
+  margin-top: 52px;
+  margin-bottom: -90px;
 }
 
 .headerfirstpage{
   display: inline-block;
   text-align: center;
   border: 2px solid rgb(244, 245, 246);
-  background-color: #4b1504;
-  opacity: 45%;
+  background-color: #054e5e;
+  opacity: 85%;
   border-radius: 15px;
   padding: 5px;
   box-shadow: 0.5px 0px 0.5px 0px;
