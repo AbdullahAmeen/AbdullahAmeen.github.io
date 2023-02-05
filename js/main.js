@@ -1,7 +1,3 @@
-$(window).scroll(function(){
-  $('nav').toggleClass('scrolled', $(this).scrollTop()>120);
-
-});
 
 $(document).ready(function(){
   // Add smooth scrolling to all links

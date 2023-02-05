@@ -112,7 +112,7 @@ h2{
 }
 /* The main navbar before scrolling*/
 .navbar-dark{
-    background-color: #50a0cc;
+    background-color: #12516c;
     border-bottom: 0.5px solid lightgrey;
     z-index: 10;
     height: 65px;
@@ -125,7 +125,7 @@ h2{
 
 /* The collapsed navbar background color*/
 .navbar.scrolled .navbar-collapse{
-  background:#02191f;
+  background:#011a20;
 }
 
 .navbar-darked{
@@ -272,7 +272,7 @@ body {
   padding-top: 8px;
 }
 .menu{
-  color: white;
+  color: rgb(21, 1, 1);
 }
 
 .hompage{
@@ -391,7 +391,7 @@ h2{
   text-align: center;
 }
 h4{
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
 }
 h5{
@@ -655,7 +655,7 @@ p {
 
 
 
-#Coverpage {
+.Coverpage {
   background:url('../contents/World-Continents.png');
   background-size:cover;
   background-position:center center;
@@ -663,22 +663,31 @@ p {
   width:100%;
   padding-top:25%;
   padding-bottom:25%;
+  color: white;
 }
 
 .headerfirstpage{
   display: inline-block;
   text-align: center;
-  border: 1px solid rgb(63, 149, 199);
+  border: 2px solid rgb(244, 245, 246);
   background-color: #4b1504;
   opacity: 45%;
   border-radius: 15px;
   padding: 5px;
-  margin-top: -40px;
+  box-shadow: 0.5px 0px 0.5px 0px;
+
 }
 
 .headerfirstpage:hover{
-  background-color: rgb(1, 16, 29);
+  background-color: rgb(85, 186, 226);
+  border: 2px solid rgb(85, 186, 226);
+  color: black;
 }
+
+.headersecondline{
+  font-size: 25px;
+}
+
 backgroundImage{
   position: absolute;
   height: 100%;
