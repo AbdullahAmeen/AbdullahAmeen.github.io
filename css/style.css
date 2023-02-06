@@ -652,28 +652,27 @@ p {
 
 
 
-.Coverpage {
-  background:url('../contents/World-Continents.png');
+#Coverpage {
+  background-image:url('../contents/backgroundImage.PNG.jpg');
   background-size:cover;
   background-position:center center;
-  height:1050px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height:100vh;
   width:100%;
-  padding-top:25%;
-  padding-bottom:25%;
   color: white;
-  margin-top: 52px;
-  margin-bottom: -90px;
 }
 
 .headerfirstpage{
   display: inline-block;
   text-align: center;
-  border: 2px solid rgb(244, 245, 246);
-  background-color: #054e5e;
-  opacity: 85%;
+  border: 1px solid rgb(244, 245, 246);
+  background-color: #0b455e;
+  opacity: 95%;
   border-radius: 15px;
   padding: 5px;
-  box-shadow: 0.5px 0px 0.5px 0px;
+  box-shadow: 0.5px 0px 0.5px 1px;
+  margin-top: 350px;
 
 }
 
@@ -684,17 +683,10 @@ p {
 }
 
 .headersecondline{
-  font-size: 25px;
+  font-size: 22px;
+  font-family: calibri;
 }
 
-backgroundImage{
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  display:flex;
-  align-items: center;
-  justify-content: center;
-}
 
 .resumeportfoilo{
   font-size: 12.5px;

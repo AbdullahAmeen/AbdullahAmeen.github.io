@@ -27,3 +27,10 @@ $(document).ready(function(){
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })
+
+var typed = new Typed(".headersecondline", {
+  strings:["I am a Cartographer, GIS Analyst, Civil Engineer, and an Educator"],
+  typeSpeed: 120,
+  loop: true
+
+})
