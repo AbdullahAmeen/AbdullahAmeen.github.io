@@ -656,9 +656,9 @@ p {
   background-image:url('../contents/firstPageBackground.png');
   background-size:cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position:center center;
   background-attachment: fixed;
-  min-height:100vh;
+  min-height:120vh;
   min-width:100%;
   color: white;
 }
