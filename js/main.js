@@ -31,7 +31,7 @@ $(function () {
 var typed = new Typed(".headersecondline", {
   strings:["I am a Cartographer, GIS Analyst, Civil Engineer, and Educator"],
   typeSpeed: 90,
-  backSpeed:60,
+  backSpeed:20,
   loop: true,
 
 })

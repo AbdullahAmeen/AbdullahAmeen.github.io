@@ -112,7 +112,7 @@ h2{
 }
 /* The main navbar before scrolling*/
 .navbar-dark{
-    background-color: #0b455e;
+    background-color: #063754;
     border-bottom: 0.5px solid lightgrey;
     z-index: 10;
     height: 65px;
@@ -125,7 +125,7 @@ h2{
 
 .navbar-darked{
 
-  background-color: #116980;
+  background-color: #063754;
   box-shadow: 2px 2px 2px 2px black;
   padding: 5px;
 }
@@ -266,7 +266,7 @@ body {
   text-align: left;
   padding:5px;
   padding-top: 8px;
-  background-color: #0b455e;;
+  background-color: #063754;
 }
 .menu{
   color: rgb(21, 1, 1);
@@ -653,7 +653,7 @@ p {
 
 
 #Coverpage {
-  background-image:url('../contents/Continental-Map2.png');
+  background-image:url('../contents/firstPageBackground.png');
   background-size:cover;
   background-position:center center;
   background-repeat: no-repeat;
@@ -668,12 +668,6 @@ p {
   text-align: center;
   margin-top: 350px;
   
-}
-
-.headerfirstpage:hover{
-  background-color: rgb(85, 186, 226);
-  border: 2px solid rgb(85, 186, 226);
-  color: black;
 }
 
 .headersecondline{
