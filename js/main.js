@@ -29,7 +29,7 @@ $(function () {
 })
 
 var typed = new Typed(".headersecondline", {
-  strings:["a Cartographer", "a GIS Analyst", "a Developer", "a Civil Engineer", "and an Educator"],
+  strings:["Hello, I am Abdullah Ameen", "a Cartographer ", "GIS Analyst", "Developer", "Civil Engineer", "and an Educator", "Scroll Down to See my Work"],
   typeSpeed: 120,
   backSpeed:20,
   loop: true,

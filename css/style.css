@@ -772,3 +772,10 @@ p {
   .scrollbutton:hover{
     box-shadow: 0 0 4px 5px rgba(25, 256, 256, 0.9);
   }
+
+ /* Typed js class and font size */
+
+ .headersecondline{
+  font-size: 35px;
+  font-family: 'Times New Roman', Times, serif;
+ }
