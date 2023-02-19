@@ -15,7 +15,7 @@ $(document).ready(function(){
       // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
       $('html, body').animate({
         scrollTop: $(hash).offset().top
-      }, 400, function(){
+      }, 0, function(){
 
         // Add hash (#) to URL when done scrolling (default click behavior)
         window.location.hash = hash;
@@ -29,8 +29,8 @@ $(function () {
 })
 
 var typed = new Typed(".headersecondline", {
-  strings:["I am a Cartographer, GIS Analyst, Developer, Civil Engineer, and Educator"],
-  typeSpeed: 90,
+  strings:["Cartographer", "GIS Analyst", "Developer", "Civil Engineer", "and Educator"],
+  typeSpeed: 120,
   backSpeed:20,
   loop: true,
 
