@@ -30,7 +30,7 @@ $(function () {
 
 var typed = new Typed(".headersecondline", {
   strings:["Hello, I am Abdullah Ameen", "a Cartographer ", "GIS Analyst", "Developer", "Civil Engineer", "and an Educator", "Scroll Down to See my Work"],
-  typeSpeed: 120,
+  typeSpeed: 90,
   backSpeed:20,
   loop: true,
 
