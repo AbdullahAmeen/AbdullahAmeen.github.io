@@ -61,10 +61,9 @@
 .leaflet-control-attribution.leaflet-control {
     background: rgb(21, 21, 20);
     color: rgb(255, 255, 255);
-    height: 28px;
+    height: auto;
     font-size: 13px;
     border: 1px solid red;
-    padding-top: 3px;
     margin-right: 1px;
 }
 
@@ -92,5 +91,27 @@
     margin-right: 24px;
     border-radius: 5px;
     margin-top: 25px;
-    
+}
+
+.madinahcommunitycenter{
+    font-size: 15px;
+    color: orange;
+}
+
+.leaflet-marker-icon:hover{
+    background-color: rgb(121, 219, 244);
+    border-radius: 5px;
+    border: 1px solid rgb(3, 2, 0);
+}
+
+.authordetails{
+    font-size: 9px;
+}
+
+.attributes{
+    font-size: 10px;
+}
+
+.leaflet-right{
+    margin-bottom: 15px;
 }
