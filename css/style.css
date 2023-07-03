@@ -595,9 +595,13 @@ p {
 }
 
 .ReturnToTop:hover{
-  background: #45120f;
+  background: #7c7c79;
   }
+.ReturnToTop{
+  height: 20%;
+  width: 20%;
 
+}
   #first{
     background: radial-gradient(circle, white, darkorange);
     border-radius: 10px;
