@@ -11,7 +11,8 @@
 <style>
 
     .solareclipsheader{
-        margin-top: 80px;
+        margin-top: 50px;
+        color: white;
     }
     .soloareclipsemap{
         height: 100%; 
@@ -19,23 +20,62 @@
         text-align: center;
     }
 
+    .soloareclipsemap:hover{
+        background-color: rgb(13, 48, 56);
+        transform: scale(1.1);
+        border-radius: 5px;
+        border:1px solid #fcdf06;
+    }
+
+    .eclipseimage{
+        height: 100%;
+        width: 100%;
+    }
+
+    .eclipseimage:hover{
+        background-color: rgb(13, 48, 56);
+        transform: scale(1.1);
+        border-radius: 5px;
+        border:1px solid #fcdf06;
+    }
+    
+    .TypeofEclipes{
+        font-size: 20px;
+
+}
 </style>
-<body>
+<body style="background-color: rgb(61, 59, 59);">
 
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-12" style="color:white;">
 
-                <h3 class="solareclipsheader">What is Solar Eclipse</h3>
-                <p style="text-align: center;">A solar eclipse occurs when the moon passes between the sun and earth, and then it
-                    partially or totally blocks the sun light.
-                     </p>
+                <h3 class="solareclipsheader">Mapping the eclipse - A Trip Through the Shadows</h3> <br>
+
+                <h5 style="text-align: left;">What is Solar Eclipse:</h5>
+                <p style="text-align: left; color:white;">A solar eclipse occurs when the moon passes between the sun and earth, 
+                    and then it partially or totally blocks the sun light. Or in another way, 
+                    a solar eclipse occurs when the moon “eclipses” the sun. 
+                    This means that the moon, as it orbits the Earth, comes in
+                    between the sun and the Earth, thereby blocking the sun and 
+                    preventing the sunlight from reaching us.
+                     </p><br>
                 <p></p>
-                <p></p>
-                <p></p>
+                <h3 style="text-align: left;">Types of Solar Eclipses</h3><p></p>
+                <p class="TypeofEclipes">There are four types of solar eclipses</p>
+
+                <li class="TypeofEclipes">Total Solar Eclipse</li>
+                <li class="TypeofEclipes">Partial Solar Eclipse</li> <br><br>
 
                 <div style="text-align: center;">
-                <img src="contents/SolarEclipse-01.png" alt="" class="soloareclipsemap"><br><br>
+                    <img src="contents/Eclipse-01.png" alt="" class="eclipseimage">
+                </div>
+                <p></p>
+                <p></p>
+                <br><br><br>
+
+                <div style="text-align: center;">
+                <img src="contents/Solar-Eclip.png" alt="" class="soloareclipsemap"><br><br>
                 </div>
 
             </div>
