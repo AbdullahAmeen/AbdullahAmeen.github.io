@@ -29,9 +29,9 @@ $(function () {
 })
 
 var typed = new Typed(".headersecondline", {
-  strings:["Hello, I am Abdullah Ameen", "I am a Cartographer ", "GIS Analyst", "Developer", "Civil Engineer", "and an Educator", "Scroll Down to See my Work"],
+  strings:["Hello, Abdullah Ameen is a Geospatial Analyst, Civil Engineer, and Has Extensive Experience in Program/Project Management. <br> <br> Scroll Down to See Samples of His Work"],
   typeSpeed: 90,
-  backSpeed:20,
+  backSpeed:5,
   loop: true,
 
 })
