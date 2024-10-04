@@ -671,11 +671,14 @@ p {
   position: relative;
   
 }
+.TypedScript{
+  height: 500px;
+}
 
 .headersecondline{
   font-size: 20px;
   font-family: calibri;
-  display: inline ;
+  display:flex ;
   scroll-behavior: smooth;
 }
 
