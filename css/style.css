@@ -20,7 +20,7 @@ html, body{
   padding-top: auto;
   padding-bottom: auto;
   width: 100%;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 #div3{
   color: black;;
@@ -777,8 +777,10 @@ p {
  /* Typed js class and font size */
 
  .headersecondline{
-  font-size: 30px;
+  font-size: 28px;
   font-family: 'Times New Roman', Times, serif;
+  color: #fcfcfc;
+  line-height: 50px;
  }
 
  .card-body{
@@ -833,4 +835,20 @@ p {
   padding: 10px;
   width: auto;
   
+}
+
+.close-btn {
+  font-size: 24px;
+  cursor: pointer;
+  padding: 14px 20px;
+  float: right;
+  color: white;
+}
+
+/* Open button styling */
+.open-btn {
+  margin-top: 100px;
+  font-size: 16px;
+  padding: 10px;
+  cursor: pointer;
 }
