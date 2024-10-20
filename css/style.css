@@ -110,7 +110,7 @@ h2{
 }
 /* The main navbar before scrolling*/
 .navbar-dark{
-    background-color: #063754;
+    background-color: #014952;
     border-bottom: 0.5px solid lightgrey;
     z-index: 10;
     height: 65px;
@@ -118,12 +118,12 @@ h2{
 
 /* The collapsed navbar background color*/
 .navbar.scrolled .navbar-collapse{
-  background:#011a20;
+  background:#014952;
 }
 
 .navbar-darked{
 
-  background-color: #063754;
+  background-color: #014952;
   box-shadow: 2px 2px 2px 2px black;
   padding: 5px;
 }
@@ -264,7 +264,7 @@ body {
   text-align: left;
   padding:5px;
   padding-top: 8px;
-  background-color: #063754;
+  background-color: #014952;
 }
 .menu{
   color: rgb(21, 1, 1);
@@ -398,7 +398,7 @@ h3{
 
 
 .navbar-custom {
-    background:#116980;
+    background:#014952;
 }
 
 .navbar-custom .navbar-brand{
@@ -461,7 +461,7 @@ p {
 
 .hompagecover{
   width: 55px;
-  height: 40px;
+  height: 54px;
   padding-bottom:0px;
 }
 .hompage{
@@ -662,6 +662,7 @@ p {
   min-height:100vh;
   min-width:100%;
   color: white;
+  background-color: white;
 }
 
 .headerfirstpage{
@@ -777,10 +778,10 @@ p {
  /* Typed js class and font size */
 
  .headersecondline{
-  font-size: 28px;
+  font-size: 22px;
   font-family: 'Times New Roman', Times, serif;
   color: #fcfcfc;
-  line-height: 50px;
+  line-height: 40px;
  }
 
  .card-body{
@@ -852,3 +853,4 @@ p {
   padding: 10px;
   cursor: pointer;
 }
+
