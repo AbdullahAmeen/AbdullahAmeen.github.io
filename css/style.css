@@ -662,7 +662,7 @@ p {
 .headerfirstpage{
   display: inline-block;
   text-align: center;
-  margin-top: 180px;
+  margin-top: 220px;
   position: relative;
   
 }
@@ -772,10 +772,11 @@ p {
  /* Typed js class and font size */
 
  .headersecondline{
-  font-size: 22px;
+  font-size: 28px;
   font-family: 'Times New Roman', Times, serif;
   color: #fcfcfc;
   line-height: 40px;
+  
  }
 
  .card-body{
