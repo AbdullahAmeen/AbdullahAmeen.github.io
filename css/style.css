@@ -662,8 +662,9 @@ p {
 .headerfirstpage{
   display: inline-block;
   text-align: center;
-  margin-top: 220px;
+  margin-top: 200px;
   position: relative;
+  
   
 }
 .TypedScript{
@@ -775,7 +776,7 @@ p {
   font-size: 28px;
   font-family: 'Times New Roman', Times, serif;
   color: #fcfcfc;
-  line-height: 40px;
+  line-height: 47px;
   
  }
 
