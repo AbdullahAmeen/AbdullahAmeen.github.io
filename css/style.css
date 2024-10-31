@@ -876,5 +876,6 @@ p {
   text-align: center;
 }
 
-
-
+.navbar-toggler {
+  margin-top: -10px; /* Adjust the value as needed */
+}
