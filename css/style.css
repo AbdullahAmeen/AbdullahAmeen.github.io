@@ -898,7 +898,7 @@ input, textarea {
   border: 1px solid #ccc;
   border-radius: 5px;
 }
-button1 {
+.submitebutton {
   width: 100%;
   padding: 10px;
   background-color: #28a745;
@@ -907,7 +907,7 @@ button1 {
   border-radius: 5px;
   cursor: pointer;
 }
-button1:hover {
+.submitebutton:hover {
   background-color: #218838;
 }
   

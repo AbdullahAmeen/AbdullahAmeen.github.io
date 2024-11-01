@@ -35,3 +35,21 @@ var typed = new Typed(".headersecondline", {
   loop: true,
 
 })
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+  event.preventDefault();
+  
+  fetch(event.target.action, {
+      method: 'POST',
+      body: new FormData(event.target),
+      headers: { 'Accept': 'application/json' }
+  }).then(response => {
+      if (response.ok) {
+          document.getElementById('confirmationMessage').innerText = "Thank you for your message!";
+          document.getElementById('contactForm').reset();
+      } else {
+          document.getElementById('confirmationMessage').innerText = "Oops! Something went wrong. Please try again.";
+      }
+  }).catch(error => {
+      document.getElementById('confirmationMessage').innerText = "Oops! There was a problem.";
+  });
+});
