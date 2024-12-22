@@ -29,7 +29,7 @@ $(function () {
 })
 
 var typed = new Typed(".headersecondline", {
-  strings:["Hello, Abdullah Ameen is a Geospatial and Civil Engineer <br> with over 10 years of experience directing complex programs and projects in conflict zones. <br> <br> Scroll Down to see Samples of his Work"],
+  strings:["Hello, Abdullah Ameen is a Geospatial and Civil Engineer <br> with over 12 years of experience directing complex programs and projects in conflict zones. <br> <br> Scroll Down to see Samples of his Work"],
   typeSpeed: 60,
   backSpeed:10,
   loop: true,
