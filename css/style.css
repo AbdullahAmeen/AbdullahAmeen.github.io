@@ -1,4 +1,3 @@
-
 html, body{
   padding: 0;
   margin: 0;
@@ -245,7 +244,7 @@ body {
   background-color: transparent;
   padding: auto;
   margin-right: 7px;
-  
+  transition: transform 0.1s ease; /* Add transition for smooth toggle */
 }
 
 .navbar-dark .navbar-toggler-icon{
@@ -262,7 +261,16 @@ body {
   padding-left:10px;
   padding-top: 8px;
   background-color: #014952;
+  transition: height 0.1s ease, opacity 0.1s ease; /* Add transition for smooth collapse */
+  height: 0; /* Initial height */
+  opacity: 0; /* Initial opacity */
 }
+
+.navbar-collapse.show {
+  height: auto; /* Height when expanded */
+  opacity: 1; /* Opacity when expanded */
+}
+
 .menu{
   color: rgb(21, 1, 1);
 }
@@ -849,6 +857,7 @@ p {
   font-size: 1.5rem;
   color: #fafafa;
   font-size: 45px;
+  transition: transform 0.3s ease; /* Add transition for smooth icon change */
 }
 
 .custom-toggler[aria-expanded="false"]::before {
@@ -856,8 +865,9 @@ p {
   font-size: 1.5rem;
   color: #ffffff;
   font-size: 35px;
-  
+  transition: transform 0.3s ease; /* Add transition for smooth icon change */
 }
+
 .custombackground{
   background-color: #021d19;
   height: 73px;
