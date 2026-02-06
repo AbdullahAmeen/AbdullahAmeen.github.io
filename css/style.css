@@ -158,6 +158,8 @@ h2{
 
 .navbar-brand{
   padding-left: 5px;
+  display: flex;
+  align-items: center;
 }
 
 .navbar-brand1{
@@ -183,8 +185,7 @@ p {
 .hompagecover{
   width: 35px;
   height: 40px;
-  padding-bottom:5px;
-  margin-bottom: 10px;
+
 }
 
 
@@ -256,19 +257,14 @@ body {
 }
 
 .navbar-collapse{
-
   text-align: left;
   padding-left:10px;
   padding-top: 8px;
   background-color: #014952;
-  transition: height 0.1s ease, opacity 0.1s ease; /* Add transition for smooth collapse */
-  height: 0; /* Initial height */
-  opacity: 0; /* Initial opacity */
 }
 
 .navbar-collapse.show {
-  height: auto; /* Height when expanded */
-  opacity: 1; /* Opacity when expanded */
+  display: block !important;
 }
 
 .menu{
@@ -465,13 +461,12 @@ p {
 
 
 .hompagecover{
-  width: 45px;
-  height: 45px;
-  padding-bottom:0px;
-  margin-top: 0px;
+  width: 65px;
+  height: 65px;
 }
+
 .hompagecover:hover{
-  background-color: #35c8f5;
+  background-color: rgba(153, 223, 245, 0.2);
   border-radius: 50%;
 }
 
@@ -869,17 +864,41 @@ p {
 }
 
 .custombackground{
-  background-color: #021d19;
-  height: 73px;
+  background-color: #021d19 !important;
+  height: 73px !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.navbar.navbar-light.custombackground {
+  background-color: #021d19 !important;
+}
+
+.custombackground .nav-link {
+  color: white !important;
+}
+
+.custombackground .nav-link:hover {
+  color: rgb(0, 0, 0) !important;
 }
 
 .navbar-light .navbar-nav .nav-link{
-  color: white;
-  background-color: #021d19;
+  color: white !important;
+  background-color: transparent !important;
   
 }
 .navbar-light .navbar-nav .nav-link:hover{
-  color: rgb(239, 243, 8);
+  color: rgb(0, 0, 0) !important;
+}
+
+.navbar-nav .nav-link{
+  color: white !important;
+}
+
+.navbar-nav .nav-link:hover{
+  color: rgb(0, 0, 0) !important;
 }
 
 #navbarNav{
@@ -938,8 +957,9 @@ input, textarea {
 }
 
 .linkedin:hover{
-  background-color: #f1f518;
-  border-radius: 50%;
+  background-color: #fdfdfc;
+  border-radius: 20%;
+  
 }
 
 #coverpage {
@@ -955,3 +975,4 @@ input, textarea {
   justify-content: center;
   text-align: center;
 }
+
