@@ -661,7 +661,7 @@ p {
 
 
 #Coverpage {
-  background-image:url('../contents/firstPageBackground.png');
+  background-image:url('../contents/continents.png');
   background-size:cover;
   background-repeat: no-repeat;
   background-position:center center;
@@ -963,24 +963,10 @@ input, textarea {
   
 }
 
-#coverpage {
-  background-image: url('../contents/firstPageBackground.png'); /* Update with the correct path to your image */
-  background-size: cover; /* Ensure the background image covers the entire element */
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: scroll; /* Change to scroll to ensure responsiveness */
-  min-height: 100vh;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
 .headersecondline {
   background-color: #021b2b;
   opacity: 0.6;
-  border-radius: 5px;
+  border-radius: 8px;
   padding: 15px;
   border: 1px solid #f7f30f;
   box-shadow: 2px 2px 10px rgba(5, 5, 5, 0.9);
