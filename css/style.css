@@ -664,7 +664,6 @@ p {
   background-image:url('../contents/continents.png');
   background-size:cover;
   background-repeat: no-repeat;  /* Prevents tiling */
-  background-attachment: fixed;  /* This is the key */
   background-position: center;
   min-height:100vh;
   width:100%;
