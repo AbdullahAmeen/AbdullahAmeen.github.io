@@ -674,17 +674,17 @@ p {
 .headerfirstpage{
   display: inline-block;
   text-align: center;
-  margin-top: 200px;
+  margin-top: 130px;
   position: relative;
   
   
 }
 .TypedScript{
-  min-height: 500px;
+  height: auto;
 }
 
 .headersecondline{
-  font-size: 26px;
+  font-size: 24px;
   font-family: calibri;
   display:flex ;
   scroll-behavior: smooth;
