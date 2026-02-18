@@ -1,7 +1,7 @@
 html, body{
   padding: 0;
   margin: 0;
-  min-height:100vh;
+  height:100vh;
   width: 100%;
   scroll-behavior: smooth;
 }
@@ -10,7 +10,7 @@ html, body{
 
   display: block;
   padding-top: auto;
-  margin-top: 320px;
+  margin-top: 560px;
   
 }
 
@@ -662,10 +662,9 @@ p {
 
 #Coverpage {
   background-image:url('../contents/continents.png');
-  background-size:100% 100%;
+  background-size:cover;
   background-repeat: no-repeat;
   background-position:center center;
-  background-attachment: fixed;
   min-height:100vh;
   width:100%;
   color: white;
@@ -682,8 +681,6 @@ p {
 }
 .TypedScript{
   min-height: 500px;
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
 
 .headersecondline{
