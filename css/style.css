@@ -7,21 +7,11 @@ html, body{
 }
 
 #div1{
+
   display: block;
   padding-top: auto;
-  margin-top: 560px;
-}
-
-@media (max-width: 768px) {
-  #div1 {
-    margin-top: 100px;
-  }
-}
-
-@media (max-width: 480px) {
-  #div1 {
-    margin-top: 60px;
-  }
+  margin-top: 320px;
+  
 }
 
 #div2{
@@ -672,13 +662,14 @@ p {
 
 #Coverpage {
   background-image:url('../contents/continents.png');
-  background-size:cover;
+  background-size:100% 100%;
   background-repeat: no-repeat;
   background-position:center center;
   background-attachment: fixed;
   min-height:100vh;
   width:100%;
-  overflow-x: hidden;
+  color: white;
+  background-color: white;
 }
 
 .headerfirstpage{
@@ -691,6 +682,8 @@ p {
 }
 .TypedScript{
   min-height: 500px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .headersecondline{
