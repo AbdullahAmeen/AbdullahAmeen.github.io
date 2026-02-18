@@ -688,6 +688,7 @@ p {
   font-size: 24px;
   font-family: calibri;
   display:flex ;
+  margin-top: 50px;
   scroll-behavior: smooth;
   color: rgba(255, 255, 255, 0.9);
 }
