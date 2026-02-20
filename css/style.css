@@ -661,34 +661,62 @@ p {
 
 
 #Coverpage {
-  background-image:url('../contents/continents.png');
-  background-size:cover;
-  background-repeat: no-repeat;  /* Prevents tiling */
-  background-position: center;
+  background-image: url('../contents/Space.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height:100vh;
   width:100%;
   z-index: -1;
   color: white;
-  background-color: white;
+  background-color: rgb(4, 0, 12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+#Coverpage::before {
+  content: '';
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  background-image: url('../contents/continents.png');
+  background-size: 950px;
+  background-repeat: repeat-x;
+  background-position: 0px center;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  box-shadow: inset -0px 0px 20px 0px rgba(255, 255, 255, 0.4), 0px 0px 30px rgba(0, 0, 0, 0.5);
+  animation-name: rotateGlobe;
+  animation-duration: 200s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  z-index: 0;
+}
+
+@keyframes rotateGlobe {
+  from { background-position-x: 0px; }
+  to { background-position-x: 3700px; }
 }
 
 .headerfirstpage{
   display: inline-block;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 10px;
   position: relative;
-  
-  
+  z-index: 2;
 }
 .TypedScript{
   height: auto;
+  position: relative;
+  z-index: 2;
 }
 
 .headersecondline{
-  font-size: 24px;
+  font-size: 22px;
   font-family: calibri;
   display:flex ;
-  margin-top: 50px;
+  margin-top: 10px;
   scroll-behavior: smooth;
   color: rgba(255, 255, 255, 0.9);
 }
@@ -788,7 +816,7 @@ p {
  /* Typed js class and font size */
 
  .headersecondline{
-  font-size: 24px;
+  font-size: 22px;
   font-family: 'Times New Roman', Times, serif;
   color: #fcfcfc;
   line-height: 47px;
