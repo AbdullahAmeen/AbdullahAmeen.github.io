@@ -677,6 +677,7 @@ p {
 
 #Coverpage::before {
   content: '';
+  margin-top: 60px;
   position: absolute;
   width: 600px;
   height: 600px;
