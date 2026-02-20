@@ -109,21 +109,21 @@ h2{
 }
 /* The main navbar before scrolling*/
 .navbar-dark{
-    background-color: #014952;
-    border-bottom: 0.5px solid lightgrey;
+    background-color: #000708;
+    border-bottom: 2px solid lightgrey;
     z-index: 10;
     height: 65px;
 }
 
 /* The collapsed navbar background color*/
 .navbar.scrolled .navbar-collapse{
-  background:#014952;
+  background:#000505;
   
 }
 
 .navbar-darked{
 
-  background-color: #014952;
+  background-color: #000000;
   box-shadow: 2px 2px 2px 2px black;
   padding: 5px;
 }
@@ -260,7 +260,7 @@ body {
   text-align: left;
   padding-left:10px;
   padding-top: 8px;
-  background-color: #014952;
+  background-color: #000202;
 }
 
 .navbar-collapse.show {
@@ -399,7 +399,7 @@ h3{
 
 
 .navbar-custom {
-    background:#014952;
+    background:#000000;
 }
 
 .navbar-custom .navbar-brand{
@@ -895,7 +895,7 @@ p {
 }
 
 .custombackground{
-  background-color: #021d19 !important;
+  background-color: #000000 !important;
   height: 73px !important;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
@@ -904,7 +904,7 @@ p {
 }
 
 .navbar.navbar-light.custombackground {
-  background-color: #021d19 !important;
+  background-color: #000303 !important;
 }
 
 .custombackground .nav-link {
@@ -933,13 +933,39 @@ p {
 }
 
 #navbarNav{
-  background-color: #021d19;
+  background-color: #000202;
   margin-top: -2px;
   margin-left: -16px;
   margin-right: -16px;
   padding-left: 15px;
   padding-bottom: 5px;
   padding-top: 15px;
+}
+
+/* Keep collapse background stable during open/close to avoid flash */
+.navbar-collapse,
+.navbar-collapse.collapsing,
+.navbar-collapse.show,
+#navbarNav {
+  background-color: #000202 !important;
+  transition: none !important;
+}
+
+/* Ensure main navbar background doesn't animate */
+.custombackground,
+.navbar.navbar-light.custombackground,
+.navbar-dark,
+.navbar-darked,
+.navbar-custom {
+  background-color: #000000 !important;
+  transition: none !important;
+}
+
+/* Improve toggler rendering to avoid white flicker */
+.custom-toggler[aria-expanded]::before {
+  backface-visibility: hidden;
+  -webkit-font-smoothing: antialiased;
+  will-change: transform;
 }
 
 .navbar-toggler {
