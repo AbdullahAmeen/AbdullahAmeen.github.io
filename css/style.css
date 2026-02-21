@@ -687,7 +687,7 @@ p {
   background-position: 0px center;
   border-radius: 50%;
   border: 2px solid rgba(255, 255, 255, 0.3);
-  box-shadow: inset -0px 0px 20px 0px rgba(255, 255, 255, 0.4), 0px 0px 30px rgba(0, 0, 0, 0.5);
+  box-shadow: inset -0px 0px 20px 0px rgba(255, 255, 255, 0.788), 0px 0px 30px rgba(0, 0, 0, 0.5);
   animation-name: rotateGlobe;
   animation-duration: 200s;
   animation-iteration-count: infinite;
