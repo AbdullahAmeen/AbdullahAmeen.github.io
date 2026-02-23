@@ -686,8 +686,7 @@ p {
   background-repeat: repeat-x;
   background-position: 0px center;
   border-radius: 50%;
-  border: 2px solid rgba(255, 255, 255, 0.3);
-  box-shadow: inset -0px 0px 20px 0px rgba(255, 255, 255, 0.788), 0px 0px 30px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0px 0px 20px 0px rgba(255, 255, 255, 0.788), 0px 0px 30px rgba(0, 0, 0, 0.5);
   animation-name: rotateGlobe;
   animation-duration: 200s;
   animation-iteration-count: infinite;
@@ -697,7 +696,7 @@ p {
 
 @keyframes rotateGlobe {
   from { background-position-x: 0px; }
-  to { background-position-x: 3700px; }
+  to { background-position-x: 3800px; }
 }
 
 .headerfirstpage{
@@ -714,12 +713,18 @@ p {
 }
 
 .headersecondline{
-  font-size: 22px;
+  font-size: 20px;
   font-family: calibri;
-  display:flex ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 10px;
   scroll-behavior: smooth;
   color: rgba(255, 255, 255, 0.9);
+  max-width: 450px;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -817,7 +822,7 @@ p {
  /* Typed js class and font size */
 
  .headersecondline{
-  font-size: 22px;
+  font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
   color: #fcfcfc;
   line-height: 47px;
