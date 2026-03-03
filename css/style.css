@@ -10,8 +10,9 @@ html, body{
 
   display: block;
   padding-top: auto;
-  margin-top: 20px;
-  
+  margin-bottom: 200px;
+  background-color:#dbd3d3;
+
 }
 
 #div2{
@@ -19,7 +20,7 @@ html, body{
   padding-top: auto;
   padding-bottom: auto;
   width: 100%;
-  margin-top: 50px;
+  margin-top: 00px;
 }
 #div3{
   color: black;;
